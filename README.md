@@ -1,6 +1,6 @@
 # PowerBI_Portfolio
 
-# Pizza Sales Report
+# 1. Pizza Sales Report
 
 ## Project Objective
 Analyze Key indicators of Pizza sales to be able to gain insights into the business performance to identify which areas need more focus to perform better.
@@ -37,13 +37,13 @@ Above CSV raw data is imported into SQL server and then the created tables are i
 
 
 ## Process
-- Import raw data into SQL server. 
-- Verify data for any missing values and anomalies, and sort out the same.
-- Run SQL queries for all the requirements and KPIs so that dashboard output can be validated.
+- Import raw data into SQL server.
 - Connect SQL Server to Power BI and import the Pizza sales data
+- Verify data for any missing values and anomalies, and sort out the same.
 - Make sure data is consistent and clean with respect to data type, data format and values used.
-- DAX calculations, Dashboard lay outing, Charts Development and Formatting.
+- DAX calculations, Dashboard lay outing, Charts Development and Formatting using interactive features like slicers, buttons, bookmarks etc.
 - Dashboard/ Report Development
+- Run SQL queries for all the requirements and KPIs so that dashboard output can be validated.
 - Insights generation
 
 ## Dashboard</br>
