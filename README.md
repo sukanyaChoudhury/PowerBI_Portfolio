@@ -1,6 +1,6 @@
 # PowerBI_Portfolio
 
-# Project Title
+# Pizza Sales Report
 
 A brief description of what this project does and who it's for
 
