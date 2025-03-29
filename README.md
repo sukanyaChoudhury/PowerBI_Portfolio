@@ -189,12 +189,37 @@ In today’s digital music era, understanding listening patterns is crucial for 
 ## Dataset used
 - <a href="https://github.com/sukanyaChoudhury/PowerBI_Portfolio/blob/main/Spotify%20Dashboard%20Files/spotify_history.csv">Dataset</a>
 
-## Questions (KPIs)
-🎵 Total Albums Played Over Time – Track how album listening trends change over months and years.📅 Number of Albums Listened by Year – Identify annual listening habits and volume (Find the Min and Max Albums in the view).</br>
-💥Albums Played on Weekday & Weekend – Identify the Pattern of music listening on weekdays and weekends.🏆 Top 5 Albums – Identify the most played albums based on listening frequency.</br>
-📊 Latest Year vs Previous Year Analysis – Compare album consumption between the latest and previous years, including:</br>
-LY (Latest Year) vs PY (Previous Year) Trends</br>
-YoY (Year-over-Year) Growth Analysis</br>
+## Requirements & KPIs
+- Total Albums/Artists/Tracks Played Over Time – Track how album listening trends change over months and years.</br>
+- Number of Albums/Artists/Tracks Listened by Year – Identify annual listening habits and volume (Find the Min and Max Albums/Artists/Tracks in the view).</br>
+- Albums/Artists/Tracks Played on Weekday & Weekend – Identify the Pattern of music listening on weekdays and weekends.</br>
+- Top 5 Albums/Artists/Tracks – Identify the most played albums based on listening frequency.</br>
+- Latest Year vs Previous Year Analysis – Compare  consumption between the latest and previous years, including:</br>
+    LY (Latest Year) vs PY (Previous Year) Trends</br>
+    YoY (Year-over-Year) Growth Analysis</br>
+- Listening Hours Analysis – Identify peak listening times using a Heat Map that visualizes patterns across hours and days with color intensity.</br>
+- Average Listening Time (min) vs Track Frequency – Use a Scatter Plot with Quadrant Analysis to categorize tracks based on:</br>
+- High Frequency & High Listening Time – Most engaging tracks</br>
+- Low Frequency & High Listening Time – Niche but impactful tracks</br>
+- High Frequency & Low Listening Time – Short & frequently played tracks</br>
+- Low Frequency & Low Listening Time – Less popular tracks</br>
+- Grid View with Essential Fields- The Grid should present critical data points for an intuitive and structured view.</br>
+       - Drill Through Functionality: Users should be able to drill through from the main reports to explore underlying data for detailed insights.</br>
+       - The drilled-through data should be exportable to a CSV file based on user requirements.</br>
+       - Drill Down, Drill Up, and Hierarchy: The Grid should support hierarchical navigation, allowing users to drill down and up for in-depth data exploration.</br>
 
+## Process
+- Requirement Gathering/ Business Requirements</br>
+- Data Connection</br>
+- Data Cleaning / Quality Check</br>
+- Data Modeling</br>
+- Data Processing</br>
+- DAX Calculations</br>
+- Dashboard Lay outing</br>
+- Charts Development and Formatting</br>
+- Dashboard / Report Development</br>
+- Insights Generation</br>
+
+  ## Measures Created
 
 
