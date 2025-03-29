@@ -178,5 +178,5 @@ ORDER BY Total_Orders ASC;</br>
 - Worst Seller in all three parameters is "The Brie Carre Pizza"
 
 ## Final Conclusion:
-To improve the Pizza sales, a strategic marketing plan for the weekends sales should be implemented. Customers make maximum purchases on weekends so more lucrative offers can be rolled out to improve sales. X-Large/XX-Large Pizzas as well as The Brie Carre Pizza have lowest sales so feedback must be taken from customers on the products and if sales don't improve further even after rolling offers, they can be discontinued.
+To improve the Pizza sales, a strategic marketing plan for the weekends sales should be implemented. Customers make maximum purchases on weekends so more lucrative offers can be rolled out to improve sales. X-Large/XX-Large Pizzas as well as The Brie Carre Pizza have lowest sales so feedback must be taken from customers on the products and if sales don't improve further even after rolling offers, reducing price and implementing customer's feedback, they can be discontinued.
 
