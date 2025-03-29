@@ -51,7 +51,8 @@ Above CSV raw data is imported into SQL server and then the created tables are i
 A. KPI’s
 1. Total Revenue:
 SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales;
-![Image](https://github.com/user-attachments/assets/7cfacfbf-d4ea-4d68-810a-3a2c1d3b4996)
+![total revenue](https://github.com/user-attachments/assets/4f1842a7-d8f5-43c1-a3b8-dca9e748a89b)
+
  
 2. Average Order Value
 SELECT (SUM(total_price) / COUNT(DISTINCT order_id)) AS Avg_order_Value FROM pizza_sales
