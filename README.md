@@ -181,6 +181,7 @@ ORDER BY Total_Orders ASC;</br>
 To improve the Pizza sales, a strategic marketing plan for the weekends sales should be implemented. Customers make maximum purchases on weekends so more lucrative offers can be rolled out to improve sales. X-Large/XX-Large Pizzas as well as The Brie Carre Pizza have lowest sales so feedback must be taken from customers on the products and if sales don't improve further even after rolling offers, reducing price and implementing customer's feedback, they can be discontinued.</br>
 
 
+
 # 2. Spotify Report
 
 ## Project Objective
@@ -220,6 +221,42 @@ In today’s digital music era, understanding listening patterns is crucial for 
 - Dashboard / Report Development</br>
 - Insights Generation</br>
 
-  ## Measures Created
+## Dashboard
+- Overview Page </br>
+![Spotify_Home](https://github.com/user-attachments/assets/4678e8fe-2314-491f-8eda-8b8ea30c5f02)</br>
+
+- Listening Patterns</br>
+![Listening Patterns](https://github.com/user-attachments/assets/d3600a32-8ca8-4cdd-ad99-3f6f073b2eda) </br>
+
+- Details Grid (DrillThrough Page)</br>
+![Details](https://github.com/user-attachments/assets/ae1664d9-3df5-43f9-a9d7-772f12220b78)</br>
+
+## Project Insight
+- For Android, most Number of Albums/Artists/Tracks were played in the year 2021 and least were played in 2014. Since 2021, there is downfall trend.
+- Weekday Trend is better than weekend trend.
+- Latest Year Vs Previous Year growth is in negative for all.
+- Best Album and Track is Beatles and Best Track is "Ode to the Mets"
+- Least traffic is seen during the 8 am - 3pm window on all days as per the Listening Hrs Vs Days Heat Map.
+- The Avg Listening Time Vs track Frequency Scatter plot shows, there are very few Tracks that are Most engaging tracks with High Frequency & High Listening Time
+  with default set of 2 mins listening time and a track frequency of 80
+- Similar observations can be made for different filters using year, is shuffled-> yes or no, is skipped-> yes, no to see how many tracks were skipped or not skipped.
+
+## Final Conclusion:
+We can see that the Spotify listening trends have remarkably gone downward since 2021. Company needs to do a survey with the users to identify pain areas and get feedback
+on what sort of music they want to hear.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
