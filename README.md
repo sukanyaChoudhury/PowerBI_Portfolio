@@ -49,8 +49,8 @@ Above CSV raw data is imported into SQL server and then the created tables are i
 ## SQL Queries used to Validate Dashboard Data
 
 A. KPI’s
-1. Total Revenue:
-SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales;
+1. Total Revenue:</br>
+SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales;</br>
 ![total revenue](https://github.com/user-attachments/assets/4f1842a7-d8f5-43c1-a3b8-dca9e748a89b)
 
  
