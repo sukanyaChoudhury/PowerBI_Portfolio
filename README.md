@@ -178,5 +178,23 @@ ORDER BY Total_Orders ASC;</br>
 - Worst Seller in all three parameters is "The Brie Carre Pizza"
 
 ## Final Conclusion:
-To improve the Pizza sales, a strategic marketing plan for the weekends sales should be implemented. Customers make maximum purchases on weekends so more lucrative offers can be rolled out to improve sales. X-Large/XX-Large Pizzas as well as The Brie Carre Pizza have lowest sales so feedback must be taken from customers on the products and if sales don't improve further even after rolling offers, reducing price and implementing customer's feedback, they can be discontinued.
+To improve the Pizza sales, a strategic marketing plan for the weekends sales should be implemented. Customers make maximum purchases on weekends so more lucrative offers can be rolled out to improve sales. X-Large/XX-Large Pizzas as well as The Brie Carre Pizza have lowest sales so feedback must be taken from customers on the products and if sales don't improve further even after rolling offers, reducing price and implementing customer's feedback, they can be discontinued.</br>
+
+
+# 2. Spotify Report
+
+## Project Objective
+In today’s digital music era, understanding listening patterns is crucial for both users and streaming platforms. This analysis focuses on Spotify Data, providing insights into user engagement with albums/artists/Tracks over time.
+
+## Dataset used
+- <a href="https://github.com/sukanyaChoudhury/PowerBI_Portfolio/blob/main/Spotify%20Dashboard%20Files/spotify_history.csv">Dataset</a>
+
+## Questions (KPIs)
+🎵 Total Albums Played Over Time – Track how album listening trends change over months and years.📅 Number of Albums Listened by Year – Identify annual listening habits and volume (Find the Min and Max Albums in the view).</br>
+💥Albums Played on Weekday & Weekend – Identify the Pattern of music listening on weekdays and weekends.🏆 Top 5 Albums – Identify the most played albums based on listening frequency.</br>
+📊 Latest Year vs Previous Year Analysis – Compare album consumption between the latest and previous years, including:</br>
+LY (Latest Year) vs PY (Previous Year) Trends</br>
+YoY (Year-over-Year) Growth Analysis</br>
+
+
 
