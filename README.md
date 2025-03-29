@@ -243,7 +243,62 @@ In today’s digital music era, understanding listening patterns is crucial for 
 
 ## Final Conclusion:
 We can see that the Spotify listening trends have remarkably gone downward since 2021. Company needs to do a survey with the users to identify pain areas and get feedback
-on what sort of music they want to hear.
+on what sort of music they want to hear.</br></p>
+
+# 3. Blinkit Report
+
+## Project Objective
+Analyze Key indicators of Blinkit sales to be able to gain insights into the business performance to identify which areas need more focus to perform better.
+
+## Dataset used
+- <a https://github.com/sukanyaChoudhury/PowerBI_Portfolio/blob/main/Blinkit%20Dashboard/BlinkIT%20Grocery%20Data.xlsx">Dataset</a>
+
+## Requiremnts & KPIs
+- Total Sales: What is the Overall Total sales done?
+- Average Sales: How much average sales is done overall?
+- No. of Items: How many Total Items were sold?
+- Yearly Trend for Total Sales: Create a line chart showing Yearly trend of total sales.
+- Total Sales by Outlet location: Create a funnel chart to compare the sales performance of different outlet locations.
+- Show all KPIs by Outlet type: Create a Matrix chart to show overall performance of all Outlet types.
+- Total/Avg Sales, avg Rating and No. of Low Fat or Regular Items Sold: Create a Donut chart showing distribution of these KPIs across Fat Content.</br>
+  Use a Field Parameter slicer with the Total/Avg Sales, No. Of Items/Avg Rating Measures to toggle axis and show distribution as per selected measure.
+- Fat By Outlet: Create a Bar chart to show Fat Content distribution by Tier1, Tier 2, Tier 3 Outlet type.</br>
+  Use a Field Parameter slicer with the Total/Avg Sales, No. Of Items/Avg Rating Measures to toggle axis and show distribution as per selected measure.
+- Total/Avg Sales, avg rating and No. of Items sold by Item Type: Create a Bar chart showing these KPIs by different Item Types.</br>
+  Use a Field Parameter slicer with the Total/Avg Sales, No. Of Items/Avg Rating Measures to toggle axis and show distribution as per selected measure.
+- Slicer filters: Provide capabality to the users to be able to filter the entire dashboard using outlet location, outlet size or item type.
+
+## Process
+- Requirement Gathering/ Business Requirements</br>
+- Data Connection</br>
+- Data Cleaning / Quality Check</br>
+- Data Modeling</br>
+- Data Processing</br>
+- DAX Calculations</br>
+- Dashboard Lay outing</br>
+- Charts Development and Formatting</br>
+- Dashboard / Report Development</br>
+- Insights Generation</br>
+
+## Dashboard
+![blinkit](https://github.com/user-attachments/assets/e3bd68be-eeae-433a-bfa7-f20ed6c6c154) </br>
+
+
+
+## Project Insight
+- Blinkit did a total sales of $1.2M with 8523 total items sold with an average rating of 3.9
+- Outlet established in 2018 have given maximum sales while outlets established in 2011 i.e, the oldest outlets have given less sales.
+- Low fat products are sold more than regular products both in terms of sales and no. of items sold.
+- Maximum sale of low fat products are in Tier 3 outlets and maximum sale of regular items are also in Tier 3 outlets.
+- Most sold item is "Fruits and vegetables" and most rated item type is "Meat"
+- Maximum contribution to sales came from Tier 3 outlets and minimum from tier 1.
+
+## Final Conclusion:
+To improve Blinkit Sales, a strategic marketing plan focused on health cauntious people who like low fat products more than regular products should be implemented. This user type represents a key consumer segment, as they often make significant purchases. The approach should include targeted digital marketing campaigns and personalized promotions to capture their attention.
+
+
+
+
 
 
 
