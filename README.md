@@ -199,14 +199,14 @@ In today’s digital music era, understanding listening patterns is crucial for 
     YoY (Year-over-Year) Growth Analysis</br>
 - Listening Hours Analysis – Identify peak listening times using a Heat Map that visualizes patterns across hours and days with color intensity.</br>
 - Average Listening Time (min) vs Track Frequency – Use a Scatter Plot with Quadrant Analysis to categorize tracks based on:</br>
-* High Frequency & High Listening Time – Most engaging tracks</br>
-* Low Frequency & High Listening Time – Niche but impactful tracks</br>
-* High Frequency & Low Listening Time – Short & frequently played tracks</br>
-* Low Frequency & Low Listening Time – Less popular tracks</br>
+  * High Frequency & High Listening Time – Most engaging tracks</br>
+  * Low Frequency & High Listening Time – Niche but impactful tracks</br>
+  * High Frequency & Low Listening Time – Short & frequently played tracks</br>
+  * Low Frequency & Low Listening Time – Less popular tracks</br>
 - Grid View with Essential Fields- The Grid should present critical data points for an intuitive and structured view.</br>
-       - Drill Through Functionality: Users should be able to drill through from the main reports to explore underlying data for detailed insights.</br>
-       - The drilled-through data should be exportable to a CSV file based on user requirements.</br>
-       - Drill Down, Drill Up, and Hierarchy: The Grid should support hierarchical navigation, allowing users to drill down and up for in-depth data exploration.</br>
+  * Drill Through Functionality: Users should be able to drill through from the main reports to explore underlying data for detailed insights.</br>
+  * The drilled-through data should be exportable to a CSV file based on user requirements.</br>
+  * Drill Down, Drill Up, and Hierarchy: The Grid should support hierarchical navigation, allowing users to drill down and up for in-depth data exploration.</br>
 
 ## Process
 - Requirement Gathering/ Business Requirements</br>
