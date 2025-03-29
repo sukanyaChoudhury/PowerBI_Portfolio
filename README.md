@@ -46,6 +46,14 @@ Above CSV raw data is imported into SQL server and then the created tables are i
 - Dashboard/ Report Development
 - Insights generation
 
+## Dashboard</br>
+-HomePage</br>
+![PizzaSQL_Home](https://github.com/user-attachments/assets/33b5ab3c-cbb1-4229-9022-5b91537a3636) </br>
+
+-Best/Worst Sellers Page</br>
+![BestWorstSellers](https://github.com/user-attachments/assets/316fae8a-8475-4e8d-909d-64a2cf871393) </br>
+
+
 ## SQL Queries used to Validate Dashboard Data
 
 A. KPI’s
@@ -81,7 +89,7 @@ GROUP BY DATENAME(DW, order_date);</br>
 Output:</br>
 ![Daily Trend](https://github.com/user-attachments/assets/7e9f3d15-9c7b-4bd5-b80d-1e9d46a5e8ca)
 
-C. Monthly Trend for Orders
+C. Monthly Trend for Orders</br>
 select DATENAME(MONTH, order_date) as Month_Name, COUNT(DISTINCT order_id) as Total_Orders
 from pizza_sales
 GROUP BY DATENAME(MONTH, order_date);</br>
@@ -96,83 +104,79 @@ GROUP BY pizza_category;</br>
 Output:</br>
  ![sales by cat](https://github.com/user-attachments/assets/74e3d6fe-bebd-4ca1-af4f-1a4b1bf4ef80)
 
-E. % of Sales by Pizza Size
+E. % of Sales by Pizza Size</br>
 SELECT pizza_size, CAST(SUM(total_price) AS DECIMAL(10,2)) as total_revenue,
 CAST(SUM(total_price) * 100 / (SELECT SUM(total_price) from pizza_sales) AS DECIMAL(10,2)) AS PCT
 FROM pizza_sales
 GROUP BY pizza_size
-ORDER BY pizza_size
-Output
- 
+ORDER BY pizza_size;</br>
+Output:</br>
+![sales by size](https://github.com/user-attachments/assets/cc92f6c3-3204-481c-a2ea-76858680dfda)
 
-F. Total Pizzas Sold by Pizza Category
+F. Total Pizzas Sold by Pizza Category</br>
 SELECT pizza_category, SUM(quantity) as Total_Quantity_Sold
 FROM pizza_sales
 WHERE MONTH(order_date) = 2
 GROUP BY pizza_category
-ORDER BY Total_Quantity_Sold DESC
-Output
+ORDER BY Total_Quantity_Sold DESC;</br>
+Output:</br>
+![pizzas sold by cat](https://github.com/user-attachments/assets/41a6523e-e7fa-49f5-b21c-30bb5de4fcc0)
+
  
-G. Top 5 Pizzas by Revenue
+G. Top 5 Pizzas by Revenue</br>
 SELECT Top 5 pizza_name, SUM(total_price) AS Total_Revenue
 FROM pizza_sales
 GROUP BY pizza_name
-ORDER BY Total_Revenue DESC
+ORDER BY Total_Revenue DESC;</br>
+![top 5](https://github.com/user-attachments/assets/9624666e-b95d-4c18-b66c-5eb839efca0a)
+
  
-H. Bottom 5 Pizzas by Revenue
+H. Bottom 5 Pizzas by Revenue</br>
 SELECT Top 5 pizza_name, SUM(total_price) AS Total_Revenue
 FROM pizza_sales
 GROUP BY pizza_name
-ORDER BY Total_Revenue ASC
- 
-I. Top 5 Pizzas by Quantity
+ORDER BY Total_Revenue ASC;</br>
+![bottom 5](https://github.com/user-attachments/assets/89bd5d12-06e4-4432-8f77-1d47de31d967)
+
+I. Top 5 Pizzas by Quantity</br>
 SELECT Top 5 pizza_name, SUM(quantity) AS Total_Pizza_Sold
 FROM pizza_sales
 GROUP BY pizza_name
-ORDER BY Total_Pizza_Sold DESC
-Output
- 
-J. Bottom 5 Pizzas by Quantity
+ORDER BY Total_Pizza_Sold DESC;</br>
+Output</br>
+![topQty](https://github.com/user-attachments/assets/43facca3-f02e-4e79-9b15-c5b7f26aff04)
+
+J. Bottom 5 Pizzas by Quantity</br>
 SELECT TOP 5 pizza_name, SUM(quantity) AS Total_Pizza_Sold
 FROM pizza_sales
 GROUP BY pizza_name
-ORDER BY Total_Pizza_Sold ASC
-Output
- 
+ORDER BY Total_Pizza_Sold ASC;</br>
+Output</br>
+![bottomQuantity](https://github.com/user-attachments/assets/edf0758b-e61b-4b46-8576-94754131754f)
 
-
-
-K. Top 5 Pizzas by Total Orders
+K. Top 5 Pizzas by Total Orders</br>
 SELECT Top 5 pizza_name, COUNT(DISTINCT order_id) AS Total_Orders
 FROM pizza_sales
 GROUP BY pizza_name
-ORDER BY Total_Orders DESC
+ORDER BY Total_Orders DESC;</br>
+![topOrders](https://github.com/user-attachments/assets/d500f497-876a-4bb3-a051-ed68e52670d9)
  
-L. Borrom 5 Pizzas by Total Orders
+L. Borrom 5 Pizzas by Total Orders</br>
 SELECT Top 5 pizza_name, COUNT(DISTINCT order_id) AS Total_Orders
 FROM pizza_sales
 GROUP BY pizza_name
-ORDER BY Total_Orders ASC
- 
-NOTE
-If you want to apply the pizza_category or pizza_size filters to the above queries you can use WHERE clause. Follow some of below examples
-SELECT Top 5 pizza_name, COUNT(DISTINCT order_id) AS Total_Orders
-FROM pizza_sales
-WHERE pizza_category = 'Classic'
-GROUP BY pizza_name
-ORDER BY Total_Orders ASC
+ORDER BY Total_Orders ASC;</br>
 
-## Dashboard
-
-
+![botOrders](https://github.com/user-attachments/assets/a653fc55-45a3-4795-bf28-715a3dd4022a)
 
 ## Project Insight
-- Women customers are more likely to buy products compared to men (~65%).
-- The states of Maharashtra, Karnataka and Uttar Pradesh are the top 3 product buyers.
-- The adult age group (30-49 yrs) is max contributing (~50%) and buys the most products.
-- The maximum number of products customer orders from Amazon, Flipkart and Myntra channels.
-- More than 90% of the products delivered
+- Orders are highest on Weekends.(FRI, SAT, SUN)
+- There are maximum orders from the month of July and January
+- Classic Category contributes maximum sales(~27%) and Max Orders (14888)
+- Large Size Pizza contributes to  maximum sales (~46%) and X-Large/XX-Large Pizzas have lowest sales.
+- Best Seller by Revenue is "The Thai Chicken Pizza" and the Best Seller by Quantity Sold, Total Orders is "The Classic Deluxe Pizza".
+- Worst Seller in all three parameters is "The Brie Carre Pizza"
 
 ## Final Conclusion:
-To improve the sales of Vrinda Store, a strategic marketing plan focused on women aged 30-49 years residing in Maharashtra, Karnataka, and Uttar Pradesh should be implemented. This demographic represents a key consumer segment, as they often make significant household and lifestyle purchases. The approach should include targeted digital marketing campaigns and personalized promotions to capture their attention.
+To improve the Pizza sales, a strategic marketing plan for the weekends sales should be implemented. Customers make maximum purchases on weekends so more lucrative offers can be rolled out to improve sales. X-Large/XX-Large Pizzas as well as The Brie Carre Pizza have lowest sales so feedback must be taken from customers on the products and if sales don't improve further even after rolling offers, they can be discontinued.
 
