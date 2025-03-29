@@ -53,42 +53,49 @@ A. KPI’s
 SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales;</br>
 ![total revenue](https://github.com/user-attachments/assets/4f1842a7-d8f5-43c1-a3b8-dca9e748a89b)
 
- 
-2. Average Order Value
-SELECT (SUM(total_price) / COUNT(DISTINCT order_id)) AS Avg_order_Value FROM pizza_sales
- 
-3. Total Pizzas Sold
-SELECT SUM(quantity) AS Total_pizza_sold FROM pizza_sales
- 
-4. Total Orders
-SELECT COUNT(DISTINCT order_id) AS Total_Orders FROM pizza_sales
- 
-5. Average Pizzas Per Order
+2. Average Order Value</br>
+SELECT (SUM(total_price) / COUNT(DISTINCT order_id)) AS Avg_order_Value FROM pizza_sales;</br>
+ ![AverageOrderValue](https://github.com/user-attachments/assets/5721be19-e68a-46c5-8f08-5c8770884038)
+
+3. Total Pizzas Sold</br>
+SELECT SUM(quantity) AS Total_pizza_sold FROM pizza_sales;</br>
+ ![Tot Pizza sold](https://github.com/user-attachments/assets/7416d15e-4f8a-43f6-9581-5fadb1736203)
+
+4. Total Orders</br>
+SELECT COUNT(DISTINCT order_id) AS Total_Orders FROM pizza_sales;</br>
+ ![Total Oders](https://github.com/user-attachments/assets/5b005f33-edfc-451e-a7e0-f287abb3d08e)
+
+5. Average Pizzas Per Order</br>
 SELECT CAST(CAST(SUM(quantity) AS DECIMAL(10,2)) / 
 CAST(COUNT(DISTINCT order_id) AS DECIMAL(10,2)) AS DECIMAL(10,2))
 AS Avg_Pizzas_per_order
-FROM pizza_sales
+FROM pizza_sales</br>
+Output:</br>
+![Avg pizza perr order](https://github.com/user-attachments/assets/5f246c66-9c0a-4b23-b206-0b6d81f7d4c7)
+
  
-B. Daily Trend for Total Orders
+B. Daily Trend for Total Orders</br>
 SELECT DATENAME(DW, order_date) AS order_day, COUNT(DISTINCT order_id) AS total_orders 
 FROM pizza_sales
-GROUP BY DATENAME(DW, order_date)
-Output:
- 
+GROUP BY DATENAME(DW, order_date);</br>
+Output:</br>
+![Daily Trend](https://github.com/user-attachments/assets/7e9f3d15-9c7b-4bd5-b80d-1e9d46a5e8ca)
+
 C. Monthly Trend for Orders
 select DATENAME(MONTH, order_date) as Month_Name, COUNT(DISTINCT order_id) as Total_Orders
 from pizza_sales
-GROUP BY DATENAME(MONTH, order_date)Output
- 
+GROUP BY DATENAME(MONTH, order_date);</br>
+Output:</br>
+![Monthly Trend](https://github.com/user-attachments/assets/5745d9c8-364c-4340-969f-3762bc0197b8)
 
-
-D. % of Sales by Pizza Category
+D. % of Sales by Pizza Category</br>
 SELECT pizza_category, CAST(SUM(total_price) AS DECIMAL(10,2)) as total_revenue,
 CAST(SUM(total_price) * 100 / (SELECT SUM(total_price) from pizza_sales) AS DECIMAL(10,2)) AS PCT
 FROM pizza_sales
-GROUP BY pizza_category
-Output
- 
+GROUP BY pizza_category;</br>
+Output:</br>
+ ![sales by cat](https://github.com/user-attachments/assets/74e3d6fe-bebd-4ca1-af4f-1a4b1bf4ef80)
+
 E. % of Sales by Pizza Size
 SELECT pizza_size, CAST(SUM(total_price) AS DECIMAL(10,2)) as total_revenue,
 CAST(SUM(total_price) * 100 / (SELECT SUM(total_price) from pizza_sales) AS DECIMAL(10,2)) AS PCT
