@@ -251,7 +251,7 @@ on what sort of music they want to hear.</br></p>
 Analyze Key indicators of Blinkit sales to be able to gain insights into the business performance to identify which areas need more focus to perform better.
 
 ## Dataset used
-- <a https://github.com/sukanyaChoudhury/PowerBI_Portfolio/blob/main/Blinkit%20Dashboard/BlinkIT%20Grocery%20Data.xlsx">Dataset</a>
+- <a href="https://github.com/sukanyaChoudhury/PowerBI_Portfolio/blob/main/Blinkit%20Dashboard/BlinkIT%20Grocery%20Data.xlsx">Dataset</a>
 
 ## Requiremnts & KPIs
 - Total Sales: What is the Overall Total sales done?
