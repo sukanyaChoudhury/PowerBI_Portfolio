@@ -1,6 +1,7 @@
 # PowerBI_Portfolio
 
-# 1. Pizza Sales Report
+# 1. Pizza Sales Report 
+<a href="https://github.com/sukanyaChoudhury/PowerBI_Pizza-Sales/blob/main/README.md">
 
 ## Project Objective
 Analyze Key indicators of Pizza sales to be able to gain insights into the business performance to identify which areas need more focus to perform better.
