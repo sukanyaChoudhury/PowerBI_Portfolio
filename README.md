@@ -180,7 +180,7 @@ ORDER BY Total_Orders ASC;</br>
 ## Final Conclusion:
 To improve the Pizza sales, a strategic marketing plan for the weekends sales should be implemented. Customers make maximum purchases on weekends so more lucrative offers can be rolled out to improve sales. X-Large/XX-Large Pizzas as well as The Brie Carre Pizza have lowest sales so feedback must be taken from customers on the products and if sales don't improve further even after rolling offers, reducing price and implementing customer's feedback, they can be discontinued.</br>
 
-
+*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************
 
 # 2. Spotify Report
 
@@ -244,6 +244,9 @@ In today’s digital music era, understanding listening patterns is crucial for 
 ## Final Conclusion:
 We can see that the Spotify listening trends have remarkably gone downward since 2021. Company needs to do a survey with the users to identify pain areas and get feedback
 on what sort of music they want to hear.</br></p>
+
+********************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+
 
 # 3. Blinkit Report
 
